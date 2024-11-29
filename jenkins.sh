@@ -15,4 +15,4 @@ update-alternatives --config java
 systemctl start jenkins.service
 systemctl status jenkins.service
 # if we get error like source is not support 5 use 7 or later then yum remove java* maven* -y
-#and reinstall java and maven using yum install jav-1.8.0-ooenjdk maven -y
+#and reinstall java and maven using yum install jav-1.8.0-ooenjdk maven -y select Linux2,t2.medium
