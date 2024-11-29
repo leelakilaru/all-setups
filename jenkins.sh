@@ -14,3 +14,4 @@ update-alternatives --config java
 #STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
 systemctl start jenkins.service
 systemctl status jenkins.service
+# if we get error like source is not support 5 use 7 or later then yum remove java* maven* -y
