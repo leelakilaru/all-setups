@@ -16,3 +16,5 @@ systemctl start jenkins.service
 systemctl status jenkins.service
 # if we get error like source is not support 5 use 7 or later then yum remove java* maven* -y
 #and reinstall java and maven using yum install jav-1.8.0-ooenjdk maven -y select Linux2,t2.medium
+# to give custom workspace in jenkins  --- mkdir leela --- cd leela--- /root/leela copy this one and paste in jenkins advanced
+# cd / --- chown jenkins:jenkins root/ ---- chown jenkins:jenkins /root/leela
